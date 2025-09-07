@@ -1,0 +1,6 @@
+1. What is the meaning of dynamic nature of JS
+2. What is the meaning of asynchronous nature of JS
+
+
+read till...
+parse
