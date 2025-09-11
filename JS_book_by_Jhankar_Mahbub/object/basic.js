@@ -20,3 +20,5 @@ obj[variable_name] = ...;
 * call: obj.method_name();
 * get entire function: obj.method_name;
  */
+
+delete person.firstName // person is the object and firstname is the key
