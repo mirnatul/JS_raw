@@ -2,6 +2,7 @@ const person = {
     firstName: "John",
     lastName: "Doe",
     id: 5566,
+    age: 24,
     fullname() {
         return this.firstName + " " + this.lastName;
     }
@@ -15,3 +16,10 @@ console.log(values);
 
 const entries = Object.entries(person)
 console.log(entries);
+
+Object.preventExtensions(person);
+Object.freeze(person);
+Object.seal(person);
+
+const { age, ...rest } = person; // destructuring
+console.log(rest); // object without age
